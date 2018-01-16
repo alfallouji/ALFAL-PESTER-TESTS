@@ -6,7 +6,7 @@ $data = @(
     @{ Name = 'localhost'; Port = '551'; Expected = $false }
 )
 
-# DNS Resolution pester tests 
+# Port pester tests 
 Describe 'Test-Port' {
   Context "Testing Port" {
     It "Given valid -Name '<Name>' and -Port <Port>, it returns '<Expected>'" -TestCases $data {
