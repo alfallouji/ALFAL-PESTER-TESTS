@@ -10,7 +10,7 @@ Install Pester : https://github.com/pester/Pester
 
 To execute the test manually, just run the test scripts from a powershell window.
 
-## JaCoco
+## JaCoCo
 
 To export the test in a JaCoCo format (for integration with your CI build server), Run : 
 
