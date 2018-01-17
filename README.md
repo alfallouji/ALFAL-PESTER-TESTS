@@ -8,9 +8,21 @@ Install Pester : https://github.com/pester/Pester
 
 You can also take a look at the Setup folder which has a script to setup powershell on Linux RHEL 7.2
 
+If you want to integrated it with Pester, Pester must be installed on each teamCity Agent server.
+
 ## Sample pester tests 
 
 To execute the test manually, just run the test scripts from a powershell window.
+
+# Creating a build Step in TeamCity 
+
+Pester must be invoked with the adequate parameter to output the result of the test in a format that can be ingested by TeamCity.
+
+For example, you can add the following in the script source of a build step in TeamCity : 
+
+`echo "Testing..."
+Invoke-Pester -OutputFile "/opt/teamcity/Build-Output/test.xml" -OutputFormat NUnitXml`
+
 
 ## JaCoCo
 
