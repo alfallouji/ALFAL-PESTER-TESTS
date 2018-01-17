@@ -12,7 +12,7 @@ function Test-ResolveDnsName {
 
     $lastError = $error[0]
     Try {
-        $result = Resolve-DnsName -Name $($Name) -ErrorAction "SilentlyContinue"
+        $result =  [System.Net.Dns]::GetHostEntry($Name)
     } Catch {
         return $false
     }

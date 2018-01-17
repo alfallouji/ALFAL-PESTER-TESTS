@@ -12,7 +12,8 @@ function Test-Ping {
 
     $lastError = $error[0]
     Try {
-        $result = Test-Connection -ComputerName $Name -Count 2 -ErrorAction "SilentlyContinue"
+        $ping = New-Object System.Net.NetworkInformation.Ping;
+        $result = $ping.Send($Name)
     } Catch {
         return $false
     }
