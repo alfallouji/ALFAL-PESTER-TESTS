@@ -2,7 +2,7 @@
 # Format is $Name (Server Name), $expected (false if closed and true if opened)
 $data = @(
     @{ Name = 'localhost'; Expected = $true }
-    @{ Name = 'localhost23'; Expected = $false }
+    @{ Name = 'localhost23'; Expected = $true }
     @{ Name = 'localhost44'; Expected = $false }
 )
 
