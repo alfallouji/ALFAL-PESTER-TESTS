@@ -6,6 +6,8 @@ Sample test scripts using Pester.
 
 Install Pester : https://github.com/pester/Pester
 
+You can also take a look at the Setup folder which has a script to setup powershell on Linux RHEL 7.2
+
 ## Sample pester tests 
 
 To execute the test manually, just run the test scripts from a powershell window.
