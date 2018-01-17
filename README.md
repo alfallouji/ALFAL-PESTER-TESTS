@@ -34,7 +34,7 @@ Here is an example of the output :
 
 ```<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-01-16" time="06:26:29">
-  <environment user="Administrator" machine-name="EC2AMAZ-TPFLURH" cwd="C:\CBA\Automated-Tests\Functions" user-domain="EC2AMAZ-TPFLURH" platform="Microsoft Windows Server 2016 Datacenter|C:\Windows|\Device\Harddisk0\Partition1" nunit-version="2.5.8.0" os-version="10.0.14393" clr-version="4.0.30319.42000" />
+  <environment user="Administrator" machine-name="EC2AMAZ-TPFLURH" cwd="C:\Automated-Tests\Functions" user-domain="EC2AMAZ-TPFLURH" platform="Microsoft Windows Server 2016 Datacenter|C:\Windows|\Device\Harddisk0\Partition1" nunit-version="2.5.8.0" os-version="10.0.14393" clr-version="4.0.30319.42000" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
   <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="6.9031" asserts="0" description="Pester">
     <results>
