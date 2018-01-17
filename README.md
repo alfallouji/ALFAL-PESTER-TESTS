@@ -8,7 +8,7 @@ Install Pester : https://github.com/pester/Pester
 
 You can also take a look at the Setup folder which has a script to setup powershell on Linux RHEL 7.2
 
-If you want to integrated it with Pester, Pester must be installed on each teamCity Agent server.
+If you want to integrated Pester with TeamCity, Pester must be installed on each TeamCity Agent server.
 
 ## Sample pester tests 
 
